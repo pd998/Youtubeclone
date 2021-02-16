@@ -1,0 +1,50 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.nav {
+  display: flex;
+}
+.SearchBar {
+  display: inline-block;
+  width: 900px;
+  margin: 15px;
+  margin-top: 19px;
+  border-radius: 10px;
+  height: 25px;
+}
+.name {
+  display: inline-block;
+  margin: 15px;
+  color: red;
+  font-size: 60px
+}
+.middle {
+  display: flex;
+}
+.VideoList{
+  margin: 10px;
+}
+.main{
+margin: 15px;
+}
+.VideoDetail{
+display: flex;
+margin : 15px;
+font-size: 30px;
+}
+img{
+  width: 300px;
+  height: 200px;
+}
+.video{
+  width: 300px;
+  height: 200px;
+}
+.video1{
+display: none;
+}

@@ -15,7 +15,7 @@ export default class VideoDetail extends React.Component {
     const response = await fetch(
       "https://youtube.googleapis.com/youtube/v3/videos?part=snippet&id=" +
         q +
-        "&key=AIzaSyBri2LCjC-USCO_u3tYSctWEweeoL4t7bQ"
+        "&key=AIzaSyAAw9DtWFmyXVW5CkBAjy0Nb-Nar-70F00"
     );
     const body = await response.json();
     this.setState((prevProps) => {

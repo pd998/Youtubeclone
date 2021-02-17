@@ -17,7 +17,7 @@ export default class YoutubeApi extends React.Component {
     const response = await fetch(
       "https://youtube.googleapis.com/youtube/v3/search?q=" +
         q +
-        "&type=video&key=AIzaSyBri2LCjC-USCO_u3tYSctWEweeoL4t7bQ"
+        "&type=video&key=AIzaSyAAw9DtWFmyXVW5CkBAjy0Nb-Nar-70F00"
     );
     const body = await response.json();
     //console.log(body);
